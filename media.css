@@ -3,10 +3,12 @@
 
 @media (max-width: 1320px) {}
 
-@media (min-width: 1320px),
-(max-width: 1024px) {
+@media (min-width: 1320px) {
     .cards {
         justify-content: space-around;
+    }
+    .card{
+        border: 4px solid red;
     }
 }
 
@@ -42,7 +44,7 @@
 @media (max-width: 1024px) {
     .card {
         width: 320px;
-    
+        border: 3.5px solid red;
     }
 }
 /* Tab */
